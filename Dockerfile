@@ -8,7 +8,7 @@ WORKDIR /usr/local/tomcat/webapps
 COPY target/petclinic.war .
 
 # Expose the default Tomcat port
-EXPOSE 8090
+EXPOSE 8080
 
 # Specify the command to run on container startup
 CMD ["catalina.sh", "run"]
